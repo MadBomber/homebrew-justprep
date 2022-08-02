@@ -1,12 +1,12 @@
 class Justprep < Formula
   desc "Pre-processor to the 'just' command-line utility"
   homepage "https://github.com/MadBomber/justprep"
-  url "https://github.com/MadBomber/justprep/archive/refs/tags/v1.2.3.tar.gz"
+  url "https://github.com/MadBomber/justprep/archive/refs/tags/v1.2.4.14.tar.gz"
   sha256 "0277839a9e7e3b821b2cf72efcb364a839a59dbbbaab0b1baa02594a4994f70c"
   license "MIT"
 
-  depends_on "crystal" => :build
-  depends_on "just" => :build
+  depends_on "crystal"  => :build
+  depends_on "just"     => :build
 
   depends_on "bdw-gc"
   depends_on "libevent"
