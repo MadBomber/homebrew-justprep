@@ -5,6 +5,10 @@ class Justprep < Formula
   sha256 "bc031467bf2b6be227b80f18331257eb143baa994a106c65fb46372ed740c06f"
   license "MIT"
 
+  bottle do
+    root_url "https://ghcr.io/v2/madbomber/justprep"
+  end
+
   depends_on "crystal"  => :build
   depends_on "just"     => :build
 
