@@ -16,3 +16,5 @@ Or `brew tap madbomber/justprep` and then `brew install justprep`.
 ## Documentation
 
 `brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+
+There has got to be a simpler way to link homebrew formula to the actual source repo than going through some floating homebrew tagged monster.
